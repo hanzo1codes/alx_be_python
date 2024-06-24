@@ -6,10 +6,10 @@ monthly_expenses = int(input("Enter your total monthly expenses: "))
 # actual_interest_rate = float(interest_rate.strip('%')) / int(100)
 
 # to calculate your monthly savings
-savings = monthly_income - monthly_expenses
-print(f"Your monthly savings are ${savings}.")
+monthly_savings = monthly_income - monthly_expenses
+print(f"Your monthly savings are ${monthly_savings}.")
 
 # to calculate your annual savings with interest
 # annual_savings = (savings * 12) + (savings * 12 * actual_interest_rate)
-annual_savings = (savings * 12) + (savings * 12 * float(0.05))
-print(f"Projected savings after one year, with interest, is: ${annual_savings}")
+annual_savings_projection = (monthly_savings * 12) + (monthly_savings * 12 * float(0.05))
+print(f"Projected savings after one year, with interest, is: ${annual_savings_projection}")
