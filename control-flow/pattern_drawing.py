@@ -1,5 +1,3 @@
-# pattern_drawing.py
-
 def draw_square_pattern():
     # Prompt the user for a positive integer
     size = int(input("Enter the size of the pattern: "))
