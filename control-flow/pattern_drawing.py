@@ -20,6 +20,7 @@ def draw_square_pattern():
         # Increment the row counter
         row += 1
 
+
 # Call the function to execute the script
 if __name__ == "__main__":
     draw_square_pattern()
